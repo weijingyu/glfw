@@ -16,13 +16,13 @@ project "glfw"
         "src/monitor.c",
         "src/window.c",
 
-        -- "src/null_init.c",
-        -- "src/null_joystick.c",
-        -- "src/null_monitor.c",
-        -- "src/null_window.c",
+        "src/null_init.c",
+        "src/null_joystick.c",
+        "src/null_monitor.c",
+        "src/null_window.c",
 
-        -- "src/platform.c",
-        -- "src/vulkan.c",
+        "src/platform.c",
+        "src/vulkan.c",
     }
 
     filter "system:windows"
